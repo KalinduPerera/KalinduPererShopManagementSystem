@@ -1,80 +1,26 @@
+# Kalindu
 # Shop Management System.
 ****
 
-Shop Management is developed to manage the small shops.
-Our product is a comprehensive software solution that simplifies day to day operations and increases performance efficiency. Designed to increase business efficiency for its users. It delivers a fully integrated approach to shop management with all its business operations built in a single and comprehensive solutions. This software is not particularly built for a kind of shop and it is developed to be general. There is only one user that is admin. 
+This System Specification Report aims to provide a comprehensive overview of an electronic store system, outlining its functionalities, requirements, and proposed solutions. The purpose of this report is to guide the development and implementation of a robust and scalable system that will enhance the overall operations of this electronic store. 
+This Management System is developed as a digitalized version of Manual management. The suggested electronic store system's main goal is to develop a unified platform that combines several facets of store administration, sales, inventory control, and customer relationship management. The electronic store can improve inventory management, streamline sales procedures, and offer individualized customer service by putting in place an effective system.
 
-## Features and functionalities:-
-****
-  - Order Management
-  - Stock Management
-  - Access Management
-  - Report Management
-  - Vendor Management
-  - Product Management
-  - Customer Management
-
-## Database Used:-
-****
-A  Relational database is a collection of interrelated data stored with minimum redundancy to serve many users quickly and effectively. After designing input and output, the analyst must concentrate on database design or how data should be organized around user requirements. The general objective is to make information access, easy quick, inexpensive and flexible for user. 
  
- - We have used Microsoft Sql server 2014 database for developing the database.
-- We manage the database using Microsoft database management system. 
-- We have made use of *Shop Management System(SPMS)* database which contains relations customer,   Product, Vendor, Order, Stock that helps us to manage data as we need and use it.
-
-
-### Technologies:-
-****
-Shop Management System uses following:
-
-* [C#](https://docs.microsoft.com/en-us/dotnet/csharp/)
-* [Windows Forms](https://docs.microsoft.com/en-us/dotnet/framework/winforms/) 
-* [ADO.Net](https://docs.microsoft.com/en-us/dotnet/framework/data/adonet/) 
-* [Microsoft SQL Server](https://www.microsoft.com/en-in/sql-server/sql-server-2019)
-* [Visual Studio 2017](https://visualstudio.microsoft.com/)
-
-
-### Installation:-
-****
-Install the following softwares.
-* [Visual Studio](https://visualstudio.microsoft.com/vs/older-downloads/)
-* [Microsoft SQL Server](https://www.microsoft.com/en-in/sql-server/sql-server-downloads). 
-
-#### Follow the following steps:-
-
-1) Run the SQL commands for creating of tables, Views, Stored Procedures. SQL Commands are available in SQL file.
-
-2) Run the database and connect it to the visual Studio.
-
-3) Get the connection String from the visual studio and enter it in the Connect.cs class.
-
-4) Check if any errors are there for library or dependencies.
-
-5) Run the application.
-
-#### Outputs:-
-****
-![Login](https://github.com/akashjain04/Shop-Management-System/blob/master/Output/login.png?raw=true)
-![Home](https://github.com/akashjain04/Shop-Management-System/blob/master/Output/home.png?raw=true)
-![Create Order](https://github.com/akashjain04/Shop-Management-System/blob/master/Output/create%20Order.png?raw=true)
-![Add Customer](https://github.com/akashjain04/Shop-Management-System/blob/master/Output/add_customer.png?raw=true)
-![View Product details](https://github.com/akashjain04/Shop-Management-System/blob/master/Output/View%20product%20details.png?raw=true)
-![Delete Stock](https://github.com/akashjain04/Shop-Management-System/blob/master/Output/delete%20stock.png?raw=true)
-![Report Order](https://github.com/akashjain04/Shop-Management-System/blob/master/Output/Report%20order.png?raw=true)
-![Update Vendor](https://github.com/akashjain04/Shop-Management-System/blob/master/Output/update%20vendor.png?raw=true)
-
-### References:-
-****
+1.	Inventory Management: This Shop Management System will allow the user to add details of their products to the system (details include, name of the product, product category, price and also an image of the product.) Also, the user has the ability to view those details, edit those details as well as delete them. Also, the system will allow the user to add, edit and delete product categories. There are two separate pages to manage the products and product categories. 
+  
+2.	Customer Management: 1.	The administration will be able to keep track of their customers with the use of this system to facilitate a smooth relationship with the store.  The customers’ preferences can be targeted in order to ensure a better experience with the store. The orders can be easily carried out by the store with the acquired customer information.
+  
+  
+3.	Vendor management: Various types of products will be acquired by the store by different types of people and brands.in order to keep track of these using their designated Id or Name followed by quantity of their products, an efficient database can be formed. 
  
-
-> [Windows Forms](https://docs.microsoft.com/en-us/dotnet/framework/winforms/)
-
-> [ADO.Net](https://docs.microsoft.com/en-us/dotnet/framework/data/adonet/)
-
-> [Microsoft SQL Server](https://www.microsoft.com/en-in/sql-server/sql-server-2019)
-
-> [How to get Connection String?](https://www.youtube.com/watch?v=1U0cP2rvr2g)
-
-> [SQL Basics](https://www.sqlservertutorial.net/sql-server-basics/)
-
+This shop management system will provide the following benefits to the shop: 
+  
+1.	      Better time management: A manual system will consume more time and effort than an automated system. Since this system is an automated system, it will save the time of the employees as well as the customers.  
+  
+2.	Errors minimized: As mentioned above, since this is an automated system, human errors will be minimized through this system. Such as incorrect orders and incorrect stock assignments will be eliminated.   
+  
+3.	Effective decision-making: The system will give information about the sales, sales reports, orders placed, pending, and finished, information about the items and categories that are available, and information about the employees to aid in effective decision-making. 
+    
+4.	Customer Satisfaction: Since the system saves time and effort and plays a great role in decision making, it will overall increase customer satisfaction as well. 
+ 
 
